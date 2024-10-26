@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(225, 225, 225);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.divider {
+    width: 100px;
+    height: 4px;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+.review-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 700px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 1.5rem;
+}
+
+.user-description {
+    text-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.nav-button {
+    width: 50px;
+    background-color: #FFF;
+    border: none;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.surprise-me {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
